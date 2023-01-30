@@ -17,7 +17,7 @@ target = open(filename, 'w')
 
 print("Truncating the file.  Goodbye!")
 # 对文件对象采用truncate方法，truncate方法作用是清空文件对象的内容。
-target.truncate()
+# target.truncate()
 
 print("Now I'm going to ask you for three lines.")
 
