@@ -40,8 +40,8 @@ while True:
     if linei == 'quit':
         break
     else:
-        target.write(linei)
-        target.write('\n')
+        target.write(linei + '\n')
+        #target.write('\n')
         i += 1
 
 print("And finally, we close it.")
