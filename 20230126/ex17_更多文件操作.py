@@ -19,7 +19,7 @@ input()
 
 # 使用open()打开to_file，采用写入方式操作
 out_file = open(to_file, 'w')
-#
+# 对out_file对象进行写入操作，写入内容为从from_file读取的内容
 out_file.write(indata)
 
 print("Alright, all done.")
