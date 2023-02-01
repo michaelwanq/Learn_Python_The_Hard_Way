@@ -21,12 +21,13 @@ for i in change:
 # we can also build lists, first start with an empty one
 elements = []
 
-# 将0-5依次插入列表elements中
-# then use the range function to do 0 to 5 counts
+将0-5依次插入列表elements中
+then use the range function to do 0 to 5 counts
 for i in range(0, 6):
     print(f"Adding {i} to the list.")
     # append is a function that lists understand
     elements.append(i)
+# elements = range(0,6)
 
 # 使用循环打印elements中的元素
 # now we can print them out too
