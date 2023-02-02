@@ -71,6 +71,7 @@ mary.pet = satan
 
 ## 使用Employee类创建实例，初始化属性name和salary
 frank = Employee("Frank", 120000)
+print(frank.salary)
 
 ## 将实例rover赋值给frank属性pet
 frank.pet = rover
