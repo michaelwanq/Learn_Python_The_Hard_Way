@@ -9,13 +9,19 @@ stuff = ten_things.split(' ')
 more_stuff = ["Day", "Night", "Song", "Frisbee",
               "Corn", "Banana", "Girl", "Boy"]
 # 定义循环，判断依据是变量stuff的值不为10
-while len(stuff) != 10:
-    # 从变量more_stuff取值并插入到stuff列表中
+# while len(stuff) != 10:
+#     # 从变量more_stuff取值并插入到stuff列表中
+#     next_one = more_stuff.pop()
+#     print("Adding: ", next_one)
+#     stuff.append(next_one)
+#     print(f"There are {len(stuff)} items now.")
+stuff_len = len(stuff)
+for stuff_len in range(stuff_len,10) :
     next_one = more_stuff.pop()
     print("Adding: ", next_one)
     stuff.append(next_one)
     print(f"There are {len(stuff)} items now.")
-
+    stuff_len += 1
 # 打印处理后的变量stuff，包含10个元素的列表
 print("There we go: ", stuff)
 
